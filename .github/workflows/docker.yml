@@ -40,7 +40,7 @@ on:
 # ----------------------------------------------------------
 env:
   DOCKER_IMAGE: boot-flyway-web   # Docker Hub 저장소 이름 (소문자만 가능, 백엔드는 boot-flyway-app)
-  DOCKER_TAG: v1                  # 버전 태그 (새 버전을 구분해 남기고 싶으면 v2, v3 ... 로 변경)
+  DOCKER_TAG: v3                  # 버전 태그 (새 버전을 구분해 남기고 싶으면 v2, v3 ... 로 변경)
 
 jobs:
   build:
